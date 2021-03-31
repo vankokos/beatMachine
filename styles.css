@@ -1,0 +1,37 @@
+body {
+    background: #343435;
+}
+
+
+.beatMachine {
+    position:absolute;
+    left:50%;
+    top:50%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -340px;
+    margin-top: -340px;
+    width:680px;
+    height:680px;
+}
+.beatMachine button {
+    width:150px;
+    height:150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: lightgray;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
+    outline:none;
+    transition:0.3s;
+    border-right:3px solid black;
+    border-bottom:3px solid black;
+    font-family:"roboto mono";
+    font-size:30px;
+
+}
+
+.beatMachine button:hover {
+    background:grey;
+}
